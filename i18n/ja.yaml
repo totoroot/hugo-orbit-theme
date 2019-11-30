@@ -2,6 +2,8 @@
   translation: 学歴
 - id: experiences
   translation: 経歴
+- id: voluntary
+  translation: ボランティア活動
 - id: interests
   translation: 趣味
 - id: language

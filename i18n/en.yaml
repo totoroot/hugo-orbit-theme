@@ -2,6 +2,8 @@
   translation: Education
 - id: experiences
   translation: Experiences
+- id: voluntary
+  translation: Voluntary Activities
 - id: interests
   translation: Interests
 - id: language

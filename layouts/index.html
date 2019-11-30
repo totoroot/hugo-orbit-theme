@@ -18,6 +18,10 @@
     {{ if .Site.Params.experiences.enable }}
     {{ partial "experiences.html" . }}
     {{ end }}
+    
+    {{ if .Site.Params.voluntary.enable }}
+    {{ partial "voluntary.html" . }}
+    {{ end }}
 
     {{ if .Site.Params.projects.enable }}
     {{ partial "projects.html" . }}

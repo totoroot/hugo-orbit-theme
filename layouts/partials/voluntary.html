@@ -1,0 +1,19 @@
+            <section class="section voluntary-section">
+                <h2 class="section-title"><i class="fa {{ .Site.Params.voluntary.icon }}"></i>{{ i18n "voluntary" }}</h2>
+
+				{{ range .Site.Params.activities.list }}
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">{{ .position }}</h3>
+                            <div class="time">{{ .dates }}</div>
+                        </div><!--//upper-row-->
+                        <div class="company">{{ .company }}</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>{{ with .details }}{{ . | markdownify }}{{ end }}</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+				{{ end }}
+
+            </section><!--//section-->

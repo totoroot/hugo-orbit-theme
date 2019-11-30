@@ -2,6 +2,8 @@
   translation: 학력
 - id: experiences
   translation: 경력
+- id: voluntary
+  translation: 자발적인 활동
 - id: interests
   translation: 취미
 - id: language
