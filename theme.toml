@@ -8,8 +8,8 @@ features = ["responsive", "colour schemes"]
 min_version = 0.16
 
 [author]
-  name = "Pavel Kanyshev"
-  homepage = "//github.com/aerohub"
+  name = "Matthias Thym"
+  homepage = "//github.com/totoroot"
 
 # If porting an existing theme
 [original]

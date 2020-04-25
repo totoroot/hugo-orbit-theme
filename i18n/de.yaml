@@ -1,0 +1,16 @@
+- id: education
+  translation: Ausbildung
+- id: experiences
+  translation: Berufliche Erfahrungen
+- id: voluntary
+  translation: Ehrenamtliche Tätigkeiten
+- id: interests
+  translation: Interessen
+- id: language
+  translation: Sprachkenntnisse
+- id: projects
+  translation: Projekte
+- id: skills
+  translation: Fähigkeiten & Fertigkeiten
+- id: summary
+  translation: Karriereprofil
